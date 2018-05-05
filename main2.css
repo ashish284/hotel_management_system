@@ -1,0 +1,104 @@
+body{
+	//background-color: #eee;
+	background-image: url(images/img2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 5px;
+	font-size:15px;
+	font-family: verdana, sans serif;
+}
+div#content{
+	width:50%;
+
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #f9f9f9;
+	background-color:rgba(250,250,250,0.85);
+	border: 1px solid #ccc;
+}
+
+a:link{
+	color:purple;
+	text-decoration:none;
+}
+
+a:visited{
+	color:purple;
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+	text-decoration:none;
+	text-decoration:underline;
+}
+
+a:active{
+	color:red;
+	text-decoration:none;
+}
+
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+
+table, td, th {
+	border:5 px solid black;
+}
+
+#table2{
+	border-spacing:5px ; 
+	text-align:center ; 
+	height:60%; 
+	width:100%;
+}
+
+div#sidebar{
+	float: left;
+	padding: 100px 40px 0 0;
+	height: 1000px;
+	width:250px;
+	background-color: #f9f9f9;
+	background-color:rgba(250,250,250,0.85);
+	border: 1px solid #ccc;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+
+div#table1{
+	float right;
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #f9f9f9;
+	background-color:rgba(250,250,250,0.85);
+	border: 1px solid #ccc;
+}
+
+input#textid{
+	width:200px;
+	height:25px;
+}
+input.textid{
+	width:200px;
+	height:25px;
+}
+input#submitid{
+	width: 100px;
+	height: 30px;
+	
+}
+input#submitid2{
+	width: 150px;
+	height: 30px;
+	
+}
+#checkboxid{
+	width:20px;
+	height:20px;
+}
+

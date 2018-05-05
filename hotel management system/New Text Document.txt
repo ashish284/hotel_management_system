@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>
+Employee Record
+</title>
+</head>
+<body>
+<h1>Employee Record Manager</h1>
+<h2>1. <a href="View_Employee_Record.php">View Employee Record</a><h2>
+<h2>2. <a href="Update_Employee_Record.php">Update Employee Record</a></h2>
+<h2>3. <a href="Add_New_Employee.php">Add new employee</a></h2>
+<h2>4. <a href="Delete_Employee_Record.php">Delete Employee</h2>
+</body>
+</html>

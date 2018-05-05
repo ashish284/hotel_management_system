@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+Add New Employee Record
+</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="main2.css">
+</head>
+<body>
+<div  style="width :20%;float:left">
+<h3 style="text-align: left;"><b>ADMIN SECTION</b></h3>
+<br/>
+<ul class='nav nav-pills nav-stacked'>
+<li ><a  href="View_Employee_Record.php">View Employee Record</a></li>
+<br>
+<li ><a href="Update_Employee_Record.php">Update Employee Record</a></li>
+<br>
+<li class="active"><a href="Add_New_Employee.php">Add new employee</a></li>
+<br>
+<li><a href="Delete_Employee_Record.php">Delete Employee</a></li>
+<br>
+<li><a href="Generate Bill.php">Generate Bill</a></li>
+<br>
+<li><a href="index.php">Logout</a></li>
+</ul>
+</div>
+<div id="content" >
+
+<?php 
+require_once("connection.php");
+?>
+<h2>Add New Employee</h2>
+<form id="addform" action="add1.php" method="post">
+<h3>Eid:</h3>
+<input class="textid" id="t1" type="text" title="Enter Employee id" name="eid" autofocus>
+<br>
+<h3>Name:</h3>
+<input class="textid" id="t2" type="text" title="Enter Name of Employee" name="ename">
+<br>
+<h3>Address:</h3>
+<input class="textid" id="t3" type="text" title="Enter Address" name="address">
+<br>
+<h3>Phone No:</h3>
+<input class="textid" id="t4" type="text" title="Phone No" name="ph_no">
+<br>
+<br>
+<input id="submitid" type="submit" value="submit">
+</form>
+</div>
+<script src="add.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
